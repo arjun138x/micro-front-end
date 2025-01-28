@@ -1,0 +1,16 @@
+{
+  "name": "micro-fes-beginner-to-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pkg:install": "cd cart && npm i && cd ../products && npm i && cd ../container && npm i",
+    "start": "concurrently \"npm --prefix ./cart start\" \"npm --prefix ./products start\" \"npm --prefix ./container start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

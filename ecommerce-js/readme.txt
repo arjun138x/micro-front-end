@@ -1,3 +1,4 @@
 - we are just using the plane JavaScript to build Run-Time Integration (Client-Side Composition) 
 - we need these packages
   - npm i  webpack webpack-cli webpack-dev-server html-webpack-plugin 
+- child repo should be hosted/run and add the host configuration in parent webpack.config.js
