@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar } from "@aa/child/dist";
+import { GeoJSONMap } from "@aa/child/dist";
 
 const App = () => {
   return (
     <>
       <h1>Hi</h1>
-      <Navbar />
+      <GeoJSONMap />
     </>
   );
 };

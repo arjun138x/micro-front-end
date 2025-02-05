@@ -11,3 +11,8 @@
   - run this parent repo npm link <repo-name>
   - npm unlink child - TO UNLINK
 
+
+
+Install the necessary dependencies for Webpack, Babel, and React:
+```bash
+npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react css-loader style-loader html-webpack-plugin
