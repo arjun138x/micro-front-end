@@ -8,6 +8,10 @@
     "build:prod": "babel src --out-dir dist --copy-files --minified"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {

@@ -1,3 +1,8 @@
 import "./styles.css";
 
-export { default as GeoJSONMap } from "./components/map/GeoJSONMap";
+import GeoJSONMap from "./components/map/GeoJSONMap";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
+
+// export the the components
+export { GeoJSONMap, SignIn, SignUp };
