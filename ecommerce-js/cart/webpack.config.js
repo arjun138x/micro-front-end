@@ -13,10 +13,7 @@ module.exports = {
       exposes: {
         "./CartShow": "./src/index",
       },
-      shared: {
-        react: { singleton: true },
-        "react-dom": { singleton: true },
-      },
+      shared: ["faker"], // To avoid multiple loading in parent repo
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

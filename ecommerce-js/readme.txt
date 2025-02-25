@@ -2,3 +2,6 @@
 - we need these packages
   - npm i  webpack webpack-cli webpack-dev-server html-webpack-plugin 
 - child repo should be hosted/run and add the host configuration in parent webpack.config.js
+- to avoid this error `Uncaught Error: Shared module is not available for eager consumption: webpack/sharing/consume/default/faker/faker`
+  - create a bootstrap.js file and import the file into index.js 
+  - keep all the  code into bootstrap.js file 
